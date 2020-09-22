@@ -1,5 +1,5 @@
 import faker from 'faker';
-import { Mappable } from './Interfase';
+import { Mappable } from './Interface';
 
 export class User implements Mappable {
   name: string;
